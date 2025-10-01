@@ -25,7 +25,7 @@ export default function Home() {
         <p>
           <span className=" font-medium">Clients:</span>
         </p>
-        <div className=" flex gap-4">
+        <div className=" grid grid-cols-2 gap-8">
           <div>
             <a
               href="https://www.bykaer.com/"
@@ -42,6 +42,15 @@ export default function Home() {
               className=" bg-[#0074F9] hover:bg-[#0091f9] text-white py-2 px-2 rounded-3xl transition-all"
             >
               scentsbyaw.com
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linksmanep.com/"
+              target="_blank"
+              className=" bg-[#0074F9] hover:bg-[#0091f9] text-white py-2 px-2 rounded-3xl transition-all"
+            >
+              linksmanep.com
             </a>
           </div>
         </div>
